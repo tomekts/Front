@@ -20,7 +20,7 @@ state = {
 loginUser(username, password) {
   console.log(username + password)
  // fetch('http://localhost:8080/user',{
-  fetch('http://192.168.1.73:8000/api/token/',{
+  fetch('http://tomekts.pythonanywhere.com/api/token/',{
     method: 'POST',
     headers: {
         'Accept': 'application/json',
