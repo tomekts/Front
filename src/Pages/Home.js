@@ -61,7 +61,7 @@ loginUser(username, password) {
   componentDidMount() {
     // { localStorage.setItem('token', 'a')}
    
-    fetch("https://192.168.1.73:8000/rest/products/",{
+    fetch("https://tomekts.pythonanywhere.com/rest/products/",{
       
       headers:{
         // 'Authorization': 'Bearer ' + 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjEzMDUwNDczLCJqdGkiOiJiYWViODI3OWE0MjU0ODEzYTQ0N2IyMjA0ZjhiZDlhMiIsInVzZXJfaWQiOjF9.LPW7PFF6ego4WBySaD4__boOeIwLYbAh5c-yCSpsUZs'
