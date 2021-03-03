@@ -9,7 +9,7 @@ class Login extends Component {
   };
 
   componentDidMount() {    
-    fetch("https://tomekts.pythonanywhere.com/rest/",{
+    fetch("https://tomekts.pythonanywhere.com/rest/users/",{
       
       headers:{
         'Authorization': 'Bearer ' + localStorage.getItem('token')

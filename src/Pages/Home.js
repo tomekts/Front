@@ -8,6 +8,7 @@ class Home extends Component {
   handleSubmit = event => {
     event.preventDefault();
     this.loginUser(event.target.login.value, event.target.password.value);
+   
 }
 
 state = {
@@ -32,11 +33,15 @@ loginUser(username, password) {
     })
 }
   
-  ).then(res => res.json())
+  ).then(res => res.json()
   .then(json => {
+    if(res.status=== 401){
+      alert('błedne hasło lub login')
+    }
     this.setState({token: json.access, tokenRefresh: json.refresh })
     localStorage.setItem('token', json.access)
-  })
+    
+  }))
   // .then(json => console.log(json.status))
   // .then(function(response){
   //   if(response.status === 200){
