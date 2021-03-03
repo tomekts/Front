@@ -7,7 +7,7 @@ class Contact extends Component {
       return(
           <>
           <div>
-              bla bal bal kontakt
+              strona kontaktowa test 
           </div>
       </>
       )
