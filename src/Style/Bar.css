@@ -1,0 +1,24 @@
+.Nav{
+    width: 60%;
+}
+
+.Navlink{
+    width: 20%;
+    margin: 5px;
+    
+}
+
+.Navlink:active {
+    background-color: blue;
+}
+
+.kot:hover{
+    color:  green !important;
+    
+    
+}
+
+img{
+    width: 20px;
+}
+

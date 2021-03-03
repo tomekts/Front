@@ -1,0 +1,38 @@
+.produkt{
+    background-color:gold;
+    float: left;
+    margin: 5px;
+    height: 90%;
+    width: 90%;
+    
+}
+
+.text{
+    width: 60%;
+    float: left;
+}
+
+.image{    
+    float: left;
+}
+
+.Home{
+    background-color: red;
+    
+    
+}
+.product-cart{
+    background-color: green;
+    height: 100px;
+    width: 100%;
+}
+
+.login{
+    padding: 60px 0;
+    background-color: cyan;  
+  }
+  
+  .login Form{
+      margin: 0 auto;
+      max-width: 320px;
+  }
