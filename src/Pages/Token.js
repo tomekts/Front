@@ -13,8 +13,8 @@ class Token extends Component {
     loginUser(username, password) {
         
        
-        fetch('http://192.168.1.73:8000/log/',{
-        // fetch('https://tomekts.pythonanywhere.com/log/',{
+        // fetch('http://192.168.1.73:8000/log/',{
+        fetch('https://tomekts.pythonanywhere.com/log/',{
           method: 'POST',
           credentials: 'include',
           headers: {
