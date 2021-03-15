@@ -1,7 +1,7 @@
 import { Component } from 'react';
 
 
-class Contact extends Component { 
+class Test extends Component { 
 
   render(){
       return(
@@ -9,10 +9,11 @@ class Contact extends Component {
           <div>
               strona kontaktowa test 
               
+              
           </div>
       </>
       )
   }
 }
 
-export default Contact;
+export default Test;

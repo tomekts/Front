@@ -23,6 +23,8 @@ render(){
   <NavLink className="d-inline p-2  kot text-white" to="/login"> Logowanie</NavLink>  
  <NavLink className="d-inline p-2  kot text-white" to="/register"> Rejestracja</NavLink> 
  <NavLink className="d-inline p-2  kot text-white" to="/contact"> Kontakt</NavLink>
+ <NavLink className="d-inline p-2  kot text-white" to="/token"> Token</NavLink>
+ <NavLink className="d-inline p-2  kot text-white" to="/test"> Test</NavLink>
  
 </Nav>
 </Navbar.Collapse>
