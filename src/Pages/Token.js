@@ -11,10 +11,12 @@ class Token extends Component {
 
 
     loginUser(username, password) {
-        console.log(username + password)
-       // fetch('http://localhost:8080/user',{
-        fetch('https://tomekts.pythonanywhere.com/log/',{
+        
+       
+        fetch('http://192.168.1.73:8000/log/',{
+        // fetch('https://tomekts.pythonanywhere.com/log/',{
           method: 'POST',
+          credentials: 'include',
           headers: {
               'Accept': 'application/json',
               'Content-Type': 'application/json',
@@ -38,7 +40,9 @@ class Token extends Component {
 
 test(){
     console.log('test');
-     fetch('http://192.168.1.73:8000/test/',{
+    
+    fetch('https://tomekts.pythonanywhere.com/test/',{
+    //  fetch('http://192.168.1.73:8000/test/',{
          method:'POST',
          headers: {
             'Accept': 'application/json',
